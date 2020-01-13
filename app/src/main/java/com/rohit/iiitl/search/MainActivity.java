@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
             startActivityForResult(intent,PERRISSION_REQUEST_FOR);
         }else{
+// function for showing a floating window 
             showFolatingWindow();
         }
     }
